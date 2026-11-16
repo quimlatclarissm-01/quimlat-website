@@ -31,3 +31,18 @@ h1,h2,h4 {
     background: #f8dfe1;
     color: #3a3537;
 }
+
+nav {
+  display: flex;          
+}
+
+nav a {
+  margin-left: 20px;
+  color: #3a3537;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;  
+  color: #d9808e;              
+}
