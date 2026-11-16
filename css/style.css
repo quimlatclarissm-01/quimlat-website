@@ -84,6 +84,20 @@ nav a:hover {
   color: #d9808e;              
 }
 
+.gallery-photo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 4 / 3;
+  background: #f8dfe1;
+  border-radius: 12px;
+}
 
 .hero {
   padding: 100px 5%;       
