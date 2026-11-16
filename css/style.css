@@ -46,3 +46,21 @@ nav a:hover {
   text-decoration: underline;  
   color: #d9808e;              
 }
+
+
+.hero {
+  padding: 100px 5%;       
+}
+
+.about {
+  padding: 50px 5%;
+}
+
+.features {
+  padding: 20px;          
+  margin-bottom: 20px;     
+}
+
+h2 {
+  margin-bottom: 20px;
+}
