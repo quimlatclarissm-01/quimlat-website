@@ -1,10 +1,12 @@
 /* Colors from the proposal: soft pink, off-white, warm gray/charcoal
    Fonts from the proposal: Playfair Display (headings), Inter (body) */
 
+/* Base Style - applies to the whole page */
 * {
     box-sizing: border-box;
 }
 
+/* Whole Page - Font, text-color, background */
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -13,22 +15,26 @@ body {
     line-height: 1.6;
 }
 
+/* Headings - h1 to h4 */
 h1,h2,h3,h4 {
     font-family: "Playfair Display", serif;
     font-weight: 500;
     text-align: center;
 }
 
+/* Section titles - About us and Key features */
 h2 {
   font-size: 2.2rem;
   text-align: center;
 }
 
+/* All Paragraphs */
 p {
   font-size: 1.0rem;
   text-align: center;
 }
 
+/* Buttons - book title and see the menu */
 .btn {
     display: inline-block;
     background: #3a3537;
@@ -46,6 +52,7 @@ p {
     color: #3a3537;
 }
 
+/* Header and Navigation */
 header {
   position: sticky;
   top: 0;
@@ -56,17 +63,6 @@ header {
   padding: 15px 5%;
   background: #fffaf7;
   border-bottom: 1px solid #f0d5d8;
-}
-
-.hero {
-  text-align: center; 
-}
-
-.hero-actions {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap; 
 }
 
 nav {
@@ -84,6 +80,31 @@ nav a:hover {
   color: #d9808e;              
 }
 
+/* Hero Section */
+.hero {
+  text-align: center; 
+  padding: 100px 5%;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap; 
+} 
+
+/* About Section */
+.about {
+  padding: 50px 5%;
+}
+
+/* Key Features Section */
+.features {
+  padding: 20px;          
+  margin-bottom: 20px;     
+}
+
+/* Photos */
 .gallery-photo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -97,17 +118,4 @@ nav a:hover {
   aspect-ratio: 4 / 3;
   background: #f8dfe1;
   border-radius: 12px;
-}
-
-.hero {
-  padding: 100px 5%;       
-}
-
-.about {
-  padding: 50px 5%;
-}
-
-.features {
-  padding: 20px;          
-  margin-bottom: 20px;     
 }
