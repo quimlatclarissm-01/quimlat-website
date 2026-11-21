@@ -119,3 +119,45 @@ nav a:hover {
   background: #f8dfe1;
   border-radius: 12px;
 }
+
+/* Menu Section */
+.menu-group {
+  max-width: 900px;
+  margin: 0 auto 30px;
+}
+
+.category {
+  text-align: left;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #f0b5bc;
+  padding-bottom: 5px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background: #ffffff;
+  border: 1px solid #f0d5d8;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: left;
+}
+
+.menu-item h5 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 5px;
+}
+
+.menu-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  text-align: left;
+}
