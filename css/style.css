@@ -98,6 +98,26 @@ nav a:hover {
   padding: 50px 5%;
 }
 
+.about > p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  flex: 1;
+  max-width: 300px;
+  background: #ffffff;
+  border: 1px solid #f0d5d8;
+  border-radius: 12px;
+  padding: 20px;
+}
+
 /* Key Features Section */
 .features {
   padding: 20px;          
